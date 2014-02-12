@@ -7,7 +7,7 @@ import com.scl.android.math.Vector3;
 /**
  * Created by anscarlett on 11/02/14.
  */
-public class Camera {
+public class Camera extends Node{
 	private static final String CLASS_TAG = Camera.class.getCanonicalName();
 
 	private Vector3 mPosition;

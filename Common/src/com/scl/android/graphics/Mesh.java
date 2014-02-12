@@ -6,7 +6,7 @@ import com.scl.android.math.Vector3;
 /**
  * Created by anscarlett on 11/02/14.
  */
-public class Mesh {
+public class Mesh extends Node{
 	private static final String CLASS_TAG = Mesh.class.getCanonicalName();
 
 	private Vector3[] mVertices;
@@ -17,6 +17,10 @@ public class Mesh {
 	private Vector3 mCenter;
 
 	public Mesh() {
+		super();
+	}
+
+	public void saveMesh() {
 
 	}
 }
