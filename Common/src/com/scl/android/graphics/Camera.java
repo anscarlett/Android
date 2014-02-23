@@ -17,6 +17,8 @@ public class Camera extends Node{
 	private float mClipNear;
 	private float mClipFar;
 
+	private boolean mTracking;
+
 	public Camera() {
 		mPosition = new Vector3(10.0f, 10.0f, 10.0f);
 		mLookAt = new Vector3(0.0f, 0.0f, 0.0f);
@@ -24,5 +26,60 @@ public class Camera extends Node{
 		mClipNear = 0.01f;
 		mClipFar = 1000.0f;
 		mTransform = new Matrix4();
+		mTracking = false;
+	}
+
+	public void lookAt(Vector3 _vector) {
+		mLookAt = _vector;
+	}
+
+	public void zoom(float _distance) {
+
+	}
+
+	public void pan(float _distance) {
+
+	}
+
+	public void rotate(float _degrees) {
+
+	}
+
+	public void orbit(float _degrees) {
+
+	}
+
+	public void orbit(float _degrees, Vector3 _origin) {
+
+	}
+
+	public void elevate(float _degrees) {
+
+	}
+
+	public void elevate(float _degrees, Vector3 _origin) {
+
+	}
+
+	public void trackObject(Node _object) {
+		if(_object != null) {
+			mLookAt = _object.getOrigin();
+			mTracking = true;
+		} else {
+			mTracking = false;
+		}
+	}
+
+	public void trackObject(Vector3 _vector) {
+		if(_vector != null ) {
+			mLookAt = _vector;
+			mTracking = true;
+		} else {
+			mTracking = false;
+		}
+	}
+
+	public void followPath() {
+
 	}
 }

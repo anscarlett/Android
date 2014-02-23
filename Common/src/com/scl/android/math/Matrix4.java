@@ -1,5 +1,7 @@
 package com.scl.android.math;
 
+import android.util.Log;
+
 /**
  * Created by a.scarlett on 11/02/14.
  */
@@ -20,10 +22,69 @@ public class Matrix4 {
 		mData[0] = mData[5] = mData[10] = mData[15] = 0.0f;
 	}
 
-	public void multiply(Vector3 _vec3) {
-			mData[0] = (mData[0] * _vec3.getmX()) + (mData[1] * _vec3.getmY()) + (mData[2] * _vec3.getmZ()) + mData[3];
-			mData[1] = (mData[4] * _vec3.getmX()) + (mData[5] * _vec3.getmY()) + (mData[6] * _vec3.getmZ()) + mData[7];
-			mData[2] = (mData[8] * _vec3.getmX()) + (mData[9] * _vec3.getmY()) + (mData[10] * _vec3.getmZ()) + mData[11];
-			mData[3] = (mData[12] * _vec3.getmX()) + (mData[13] * _vec3.getmY()) + (mData[14] * _vec3.getmZ()) + mData[15];
+	public void copy(float _array[])
+	{
+		if(_array.length == 16)  {
+			for (int i=0; i<16; i++)
+				mData[i] = _array[i];
+		}
+	}
+
+	public void copy(Matrix4 _mat4)
+	{
+		for (int i=0; i<16; i++)
+			mData[i] = _mat4.mData[i];
+	}
+
+	public void multiply(Matrix4 _mat4) {
+		Matrix4 result = new Matrix4();
+		for (int i = 0; i < 16; i += 4) {
+			for (int j = 0; j < 4; j++) {
+				result.mData[i + j] = 0.0f;
+				for (int k = 0; k < 4; k++)
+					result.mData[i + j] += mData[i + k] * _mat4.mData[k*4 + j];
+			}
+		}
+		copy(result);
+	}
+
+	public void multiply(float _data[]) {
+		ERRORCODE code = ERRORCODE.UNDEFINED;
+		if(_data.length == mData.length)
+		{
+			Matrix4 result = new Matrix4();
+			for (int i = 0; i < 16; i += 4) {
+				for (int j = 0; j < 4; j++) {
+					result.mData[i + j] = 0.0f;
+					for (int k = 0; k < 4; k++)
+						result.mData[i + j] += mData[i + k] * _data[k*4 + j];
+				}
+			}
+			copy(result);
+			code = ERRORCODE.SUCCESS;
+			Log.v(CLASS_TAG, code.mMessage);
+		}
+		else if(_data.length < mData.length) {
+			code = ERRORCODE.INPUT_ARRAY_TOO_SHORT;
+			Log.e(CLASS_TAG, code.mMessage);
+		}
+
+		if(code != ERRORCODE.SUCCESS){
+			throw new RuntimeException("Matrix Multiplication Error: " + code.mMessage);
+		}
+	}
+
+	private enum ERRORCODE {
+		UNDEFINED(-1, "The error has not been recognised."),
+		SUCCESS(0, "Success!"),
+		INPUT_ARRAY_TOO_SHORT(1, "Not enough values in the input array");
+
+		private int mValue;
+		private String mMessage;
+
+		private ERRORCODE(int _value, String _message) {
+			mValue = _value;
+			mMessage = _message;
+		}
 	}
 }

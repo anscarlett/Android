@@ -38,4 +38,17 @@ public class Vector3 {
 		mZ /= magnitude;
 		mX /= magnitude;
 	}
+
+	private enum ERRORCODE {
+		UNDEFINED(-1, "The error has not been recognised."),
+		SUCCESS(0, "Success!");
+
+		private int mValue;
+		private String mMessage;
+
+		private ERRORCODE(int _value, String _message) {
+			mValue = _value;
+			mMessage = _message;
+		}
+	}
 }
