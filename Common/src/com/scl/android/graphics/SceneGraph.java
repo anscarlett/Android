@@ -1,14 +1,22 @@
 package com.scl.android.graphics;
 
+import android.opengl.GLSurfaceView;
+
 /**
  * Created by anscarlett on 11/02/14.
+ *
+ *
  */
 public class SceneGraph {
 	private static final String CLASS_TAG = SceneGraph.class.getCanonicalName();
-
+	private GLSurfaceView.Renderer mRenderer;
 	private Node mRoot;
 
-	public SceneGraph() {
+	public SceneGraph(GLSurfaceView.Renderer _renderer) {
+		this.mRenderer = _renderer;
+	}
+
+	public  void render() {
 
 	}
 
