@@ -7,13 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53515b22-e1f2-4aea-97e4-9e81eaeea587" name="Default" comment="Initial commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MyGLRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MyGLSurfaceView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/com/scl/android/graphics/RawResourceReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GyroCAD/GyroCAD.iml" afterPath="$PROJECT_DIR$/GyroCAD/GyroCAD.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java" afterPath="$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/src/com/scl/android/graphics/SceneGraph.java" afterPath="$PROJECT_DIR$/Common/src/com/scl/android/graphics/SceneGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GyroCAD/project.properties" afterPath="$PROJECT_DIR$/GyroCAD/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Android.iws" />
@@ -81,10 +74,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="15" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,9 +84,7 @@
         <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MyGLSurfaceView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="68" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1258">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,7 +92,7 @@
       <file leaf-file-name="MyGLRenderer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MyGLRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="43" selection-start="4216" selection-end="4216" vertical-scroll-proportion="0.7566462" vertical-offset="1653" max-vertical-offset="2754">
+            <state line="114" column="34" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.661705" vertical-offset="1449" max-vertical-offset="2754">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +103,8 @@
       <file leaf-file-name="RawResourceReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/RawResourceReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="2" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="2" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="850">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +112,7 @@
       <file leaf-file-name="SceneGraph.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/SceneGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="57" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="680">
+            <state line="14" column="57" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -134,7 +121,7 @@
       <file leaf-file-name="Mesh.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/Mesh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="5" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="24" column="5" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -143,7 +130,7 @@
       <file leaf-file-name="Camera.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1513">
+            <state line="19" column="30" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
@@ -152,7 +139,7 @@
       <file leaf-file-name="ShaderHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/shader/ShaderHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="43" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
+            <state line="10" column="43" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -170,13 +157,8 @@
       <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="578">
-              <folding>
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-              </folding>
+            <state line="3" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -221,9 +203,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="299" />
-    <option name="y" value="101" />
-    <option name="width" value="1400" />
+    <option name="y" value="83" />
+    <option name="width" value="1280" />
     <option name="height" value="905" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -457,6 +438,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -482,19 +476,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -625,23 +606,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="101" width="1400" height="905" extended-state="0" />
+    <frame x="0" y="83" width="1280" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="399" y="201" width="1200" height="705" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283208" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -650,14 +628,17 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="399" y="201" width="1200" height="705" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283208" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -689,9 +670,7 @@
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -740,9 +719,7 @@
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -791,9 +768,7 @@
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,9 +817,7 @@
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="340">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -872,9 +845,7 @@
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,9 +887,7 @@
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -988,18 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="578">
-          <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="30" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1513">
@@ -1017,9 +974,7 @@
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,24 +988,27 @@
     <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/RawResourceReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="2" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MyGLSurfaceView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1258">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/com/scl/android/graphics/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GyroCAD/src/com/scl/android/gyrocad/MyGLRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="43" selection-start="4216" selection-end="4216" vertical-scroll-proportion="0.7566462" vertical-offset="1653" max-vertical-offset="2754">
+        <state line="114" column="34" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.661705" vertical-offset="1449" max-vertical-offset="2754">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
