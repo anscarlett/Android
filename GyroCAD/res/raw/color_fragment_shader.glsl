@@ -7,5 +7,6 @@ varying vec4 v_Color;          	// This is the color from the vertex shader inte
 void main()                    		
 {                              	
 	// Pass through the color
-    gl_FragColor = v_Color;                                  		
+    gl_FragColor = v_Color;
 }
+
